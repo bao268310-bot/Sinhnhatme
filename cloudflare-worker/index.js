@@ -3,8 +3,6 @@ addEventListener('fetch', event => {
 });
 
 async function handle(req) {
-  // Thay bằng URL video của bạn (ví dụ: https://example.com/my-video)
-  const target = 'https://example.com/VIDEO_URL_HERE';
-  // Trả về redirect 302
+  const target = 'https://sinhnhatvuive.github.io/sinh-nhat-me/';
   return Response.redirect(target, 302);
 }
